@@ -1,0 +1,142 @@
+
+
+.swiper-button-next{
+  &::after {
+    content: url("../images/r-l.svg");
+  }
+}
+.swiper-button-prev{
+  &::after {
+    transform: rotate(180deg);
+    content: url("../images/r-l.svg");
+  }
+}
+
+.home {
+  position: relative;
+  &::before {
+    content: url("../images/guy.png");
+    position: absolute;
+    left: 0;
+    top: 300px;
+    z-index: -1;
+  }
+  &::after {
+    content: url("../images/girl.png");
+    position: absolute;
+    right: 0;
+    bottom: 300px;
+    transform: rotate(deg);
+    z-index: -1;
+  }
+  &__nov {
+    margin-bottom: 33px;
+    color: #231F20;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__novinki {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+  }
+  &__filter {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #0E0C0D;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  &__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 90px / 4);
+    img {
+      width: 100%;
+    }
+    &-title {
+      color: #797979;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 28px;
+      margin-bottom: 10px;
+    }
+    &-desc {
+      color: #686466;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 19px;
+      margin-bottom: 30px;
+    }
+    &-down {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-price {
+      color: #231F20;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    &-btn {
+      padding: 8px 23px;
+      border: none;
+      border-radius: 8px;
+      background: #F7D22D;
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+  &__akc {
+    color: #0E0C0D;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+    span {
+      color: #F7D22D;
+    }
+  }
+  &__akcii {
+    display: flex;
+    column-gap: 30px;
+    &-left {
+      width: calc(50% - 15px);
+    }
+    &-right {
+      width: calc(50% - 15px);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    &-img1 {
+      width: 100%;
+      height: 100%;
+    }
+    &-img {
+      width: calc(50% - 10px);
+    }
+    &-btn {
+      padding: 10px 40px;
+      border: none;
+      border-radius: 23px;
+      background: #F7D22D;
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    &-link {
+      text-align: center;
+      margin-top: 40px;
+    }
+  }
+}

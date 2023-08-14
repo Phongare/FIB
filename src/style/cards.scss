@@ -1,0 +1,25 @@
+
+
+.miniCard {
+  display: flex;
+  align-items: center;
+  width: calc(25% - 90px / 4);
+  img {
+    width: 35%;
+    padding: 15px;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+  }
+  &__name {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__desc {
+    color: #F7D22D;
+    font-size: 16px;
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,31 @@
+.register {
+  height: 100%;
+  &__row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  &__input {
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    button {
+      width: 200px;
+      margin: 0 auto;
+      padding: 5px 20px;
+      border-radius: 8px;
+      background: #F7D22D;
+      border: 1px solid #F7D22D;
+    }
+  }
+}
