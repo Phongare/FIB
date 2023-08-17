@@ -1,8 +1,10 @@
 
 
 .swiper-button-next{
+
   &::after {
     content: url("../images/r-l.svg");
+
   }
 }
 .swiper-button-prev{
