@@ -46,31 +46,45 @@ const Home = () => {
                 <div className="home__novinki">
                     <div className="miniCard">
                         <img src={pizza} alt=""/>
-                        <div className="miniCard__right">
+                        <Link to={`/product`} className="miniCard__right">
                             <h2 className="miniCard__name">Карбонара</h2>
                             <p className="miniCard__desc">от 120 ₽</p>
-                        </div>
+                        </Link>
                     </div>
                     <div className="miniCard">
                         <img src={pizza} alt=""/>
-                        <div className="miniCard__right">
+                        <Link to={`/product`} className="miniCard__right">
                             <h2 className="miniCard__name">Карбонара</h2>
                             <p className="miniCard__desc">от 120 ₽</p>
-                        </div>
+                        </Link>
                     </div>
                     <div className="miniCard">
                         <img src={pizza} alt=""/>
-                        <div className="miniCard__right">
+                        <Link to={`/product`} className="miniCard__right">
                             <h2 className="miniCard__name">Карбонара</h2>
                             <p className="miniCard__desc">от 120 ₽</p>
-                        </div>
+                        </Link>
                     </div>
                     <div className="miniCard">
                         <img src={pizza} alt=""/>
-                        <div className="miniCard__right">
+                        <Link to={`/product`} className="miniCard__right">
                             <h2 className="miniCard__name">Карбонара</h2>
                             <p className="miniCard__desc">от 120 ₽</p>
-                        </div>
+                        </Link>
+                    </div>
+                    <div className="miniCard">
+                        <img src={pizza} alt=""/>
+                        <Link to={`/product`} className="miniCard__right">
+                            <h2 className="miniCard__name">Карбонара</h2>
+                            <p className="miniCard__desc">от 120 ₽</p>
+                        </Link>
+                    </div>
+                    <div className="miniCard">
+                        <img src={pizza} alt=""/>
+                        <Link to={`/product`} className="miniCard__right">
+                            <h2 className="miniCard__name">Карбонара</h2>
+                            <p className="miniCard__desc">от 120 ₽</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="home__filter">
@@ -89,63 +103,10 @@ const Home = () => {
                     <p className="home__card-desc">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
                     <div className="home__card-down">
                         <h2 className="home__card-price">от 600 ₽</h2>
-                        <button className="home__card-btn">В корзину</button>
+                        <button className="home__card-btn"><Link className="home__card-link" to={`/product`}>В корзину</Link></button>
                     </div>
                     </div>
-                    <div className="home__card">
-                        <img src={pizza} alt=""/>
-                        <h2 className="home__card-title">С креветками и трюфелями</h2>
-                        <p className="home__card-desc">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
-                        <div className="home__card-down">
-                            <h2 className="home__card-price">от 600 ₽</h2>
-                            <button className="home__card-btn">В корзину</button>
-                        </div>
-                    </div>
-                    <div className="home__card">
-                        <img src={pizza} alt=""/>
-                        <h2 className="home__card-title">С креветками и трюфелями</h2>
-                        <p className="home__card-desc">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
-                        <div className="home__card-down">
-                            <h2 className="home__card-price">от 600 ₽</h2>
-                            <button className="home__card-btn">В корзину</button>
-                        </div>
-                    </div>
-                    <div className="home__card">
-                        <img src={pizza} alt=""/>
-                        <h2 className="home__card-title">С креветками и трюфелями</h2>
-                        <p className="home__card-desc">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
-                        <div className="home__card-down">
-                            <h2 className="home__card-price">от 600 ₽</h2>
-                            <button className="home__card-btn">В корзину</button>
-                        </div>
-                    </div>
-                    <div className="home__card">
-                        <img src={pizza} alt=""/>
-                        <h2 className="home__card-title">С креветками и трюфелями</h2>
-                        <p className="home__card-desc">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
-                        <div className="home__card-down">
-                            <h2 className="home__card-price">от 600 ₽</h2>
-                            <button className="home__card-btn">В корзину</button>
-                        </div>
-                    </div>
-                    <div className="home__card">
-                        <img src={pizza} alt=""/>
-                        <h2 className="home__card-title">С креветками и трюфелями</h2>
-                        <p className="home__card-desc">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
-                        <div className="home__card-down">
-                            <h2 className="home__card-price">от 600 ₽</h2>
-                            <button className="home__card-btn">В корзину</button>
-                        </div>
-                    </div>
-                    <div className="home__card">
-                        <img src={pizza} alt=""/>
-                        <h2 className="home__card-title">С креветками и трюфелями</h2>
-                        <p className="home__card-desc">Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
-                        <div className="home__card-down">
-                            <h2 className="home__card-price">от 600 ₽</h2>
-                            <button className="home__card-btn">В корзину</button>
-                        </div>
-                    </div>
+
                 </div>
                 <h2 className="home__akc">Наши <span>акции</span> </h2>
                 <div className="home__akcii">

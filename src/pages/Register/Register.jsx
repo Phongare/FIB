@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from "react-router-dom";
+import {BsChevronLeft} from "react-icons/bs"
 
 const Register = () => {
     return (
@@ -12,6 +14,10 @@ const Register = () => {
                         <input className="register__input" placeholder="Пароль" type="password"/>
                         <button type="submit">Продолжить</button>
                     </form>
+                    <div className="cart__end-left">
+                        <BsChevronLeft/>
+                        <Link to={`/`} className="cart__end-text">Вернуться в магазин</Link>
+                    </div>
                 </div>
 
             </div>
