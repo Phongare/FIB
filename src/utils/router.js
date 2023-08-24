@@ -6,6 +6,7 @@ import Register from "../pages/Register/Register";
 import Map from "../pages/Map/Map";
 import Cart from "../pages/Cart/Cart";
 import OneProduct from "../pages/OneProduct/OneProduct";
+import Login from "../pages/Login/Login";
 
 export default function Router () {
     const routes = useRoutes([
@@ -20,7 +21,8 @@ export default function Router () {
                 {path: '/product', element: <OneProduct/>}
             ]
         },
-        {path: '/register', element: <Register/>}
+        {path: '/register', element: <Register/>},
+        {path: '/login', element: <Login/>}
 
     ])
     return routes

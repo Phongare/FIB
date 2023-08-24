@@ -43,6 +43,7 @@ const OneProduct = () => {
                                 <p className="oneProduct__pepper-price">120 ₽</p>
                             </div>
                         </div>
+                        <div className="oneProduct__btn">Добавить в корзину</div>
                     </div>
 
                 </div>

@@ -5,8 +5,7 @@ import axios from "axios";
 import {useDispatch} from "react-redux";
 import {LoginUser} from "../../redux/reducers/user";
 
-
-const Register = () => {
+const Login = () => {
 
     const [password, setPassword] = useState(true)
 
@@ -16,13 +15,11 @@ const Register = () => {
 
     const [user, setUser] = useState({
         email: "",
-        login: "",
-        tel: "",
         password: ""
     })
 
     const registerUser = (user) => {
-        axios.post('http://localhost:4444/register', user)
+        axios.post('http://localhost:4444/login', user)
             .then(({data}) => {
                 dispatch(LoginUser(data))
                 localStorage.setItem("user",JSON.stringify(data))
@@ -30,7 +27,6 @@ const Register = () => {
 
             })
 
-            // .then(() => alert('успешно'))
             .catch((err) => alert(err))
     }
 
@@ -48,11 +44,9 @@ const Register = () => {
         <section className="register">
             <div className="container">
                 <div className="register__row">
-                    <h1 className="register__title">Регистрация</h1>
+                    <h1 className="register__title">Вход</h1>
                     <form onSubmit={onSubmit} className="register__form">
                         <input onChange={handlerChange} required name={"email"} className="register__input" placeholder="Почта" type="email"/>
-                        <input onChange={handlerChange} required name={"login"} className="register__input" placeholder="Имя" type="text" />
-                        <input onChange={handlerChange} required name={"tel"} className="register__input" placeholder="Номер телефона" type="tel"/>
                         <input onChange={handlerChange} required name={"password"} className="register__input" placeholder="Пароль" type={password ? "password" : "text"}/>
                         <label className="register__showp">
                             <input onClick={() => setPassword(!password)} type="checkbox" className="register__showch"/>
@@ -61,7 +55,7 @@ const Register = () => {
                         <button type="submit" >Продолжить</button>
                     </form>
                     <div className="register__voiti">
-                        <Link  className="register__link" to={`/login`}>Уже есть аккаунт? Войти</Link>
+                        <Link className="register__link" to={`/register`}>Нет аккаунта?</Link>
                     </div>
                     <div className="cart__end-left">
                         <BsChevronLeft/>
@@ -74,4 +68,4 @@ const Register = () => {
     );
 };
 
-export default Register;
+export default Login;

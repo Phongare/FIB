@@ -3,24 +3,119 @@
     {
       "id": 1,
       "category": "пицца",
-      "title": "С креветками и трюфелями",
-      "price": 200,
+      "title": "4 Сыра",
+      "price": 588,
       "size": [
-        "Маленький", "Средний", "Большой"
+        "Маленький",
+        "Средний",
+        "Большой"
       ],
       "width": [
-        "Тонкое"
+        "Тонкое",
+        "Традиционное"
       ],
-      "img": "",
-      "desc": "",
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v45/Pitstsa_30sm/4_Syira_30sm/Medium.png?hash=f530c2fc1726d73286f6656fd56d59ae",
+      "desc": "Пицца 4 сыра. Пицца-соус, сыры: моцарелла, эмменталь, дорблю, пармезан. 4 Cheese Pizza. Pizza sauce with mozzarella, emmental, dorblue, parmesan.",
       "adds": [
-        "Халапеньо"
+        "без дор-блю"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "пицца",
+      "title": "Барбекю",
+      "price": 488,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Barbekiu_30sm/Medium.png?hash=b35d2b33c43f3083ad5154b1c8ab1859",
+      "desc": "Пицца Барбекю Сытная домашняя пицца с соусом барбекю, куриным филе, колбасками, грибами, томатами и маринованными огурчиками. BBQ Hearty homemade pizza with barbecue sauce, chicken fillet, sausages, mushrooms, tomatoes and pickled cucumbers.",
+      "adds": [
+        "без зелени"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "пицца",
+      "title": "Вегетарианская",
+      "price": 438,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v32/Pitstsa_30sm/Vegetarianskaia_30sm/Medium.png?hash=5696140c19c5358cc13389a0122876fd",
+      "desc": "Пицца-соус, сыр «Моцарелла», зелень, лук, шампиньоны, болгарский перец, помидоры, маслины, кукуруза. Vegetarian Pizza sauce, Mozzarella, greens, onion, champignon mushrooms, bell pepper, tomatoes, olives, corn",
+      "adds": [
+        "без болгарского перца"
+      ]
+    },
+    {
+      "id": 1,
+      "category": "пицца",
+      "title": "Гасконская",
+      "price": 588,
+      "size": [
+        "Маленький",
+        "Средний",
+        "Большой"
+      ],
+      "width": [
+        "Тонкое",
+        "Традиционное"
+      ],
+      "img": "https://staticcontent.mypizza.kg/Dishes/Imperiia_Pitstsyi/v10/Pitstsa_30sm/Gaskonskaia_30sm/Medium.png?hash=5ad10721beff448a1c86e59f30d3c2d9",
+      "desc": "Пицца Гасконская. Пицца-соус, сыр моцарелла, копчёная курица, шампиньоны, болгарский перец, помидоры, кукуруза, майонез, зелень. Gascon Pizza. Pizza sauce, mozzarella, smoked chicken, сhampignon mushrooms, bell peppers, tomatoes, corn, mayonnaise, parsley.",
+      "adds": [
+        "без зелени"
       ]
     }
   ],
   "users": [
-
+    {
+      "email": "usenkanov1976@gmail.com",
+      "password": "$2a$10$WitkRwv.FJ/4DHn.fwbT2u6dNyt5xPF3DqRT6nMDp1wvzDz4hGLCu",
+      "login": "M1lkyway_1",
+      "tel": "0552474020",
+      "id": 1
+    },
+    {
+      "email": "12512515@gmail.com",
+      "password": "$2a$10$j7jD6Tip1GVlcSYXEQqSgeW8cHdiKgglvaxrl7kSnzUhjAh7g4Z76",
+      "login": "afas",
+      "tel": "1251251",
+      "id": 2
+    },
+    {
+      "email": "125515@gmail.com",
+      "password": "$2a$10$7iXYc4jSEIkF2cA/iDWs9em1vZkVs95UD69AxcCGpIYDfFRVK0/wy",
+      "login": "afas4124",
+      "tel": "1251251",
+      "id": 3
+    },
+    {
+      "email": "usenkanovularik@gmail.com",
+      "password": "$2a$10$M9uUuVt8ba5F2qJGDLl2xuE1K7r.0ozTzdSsQekjVYFzma9FtS3bW",
+      "login": "ularik",
+      "tel": "214141241",
+      "id": 4
+    },
+    {
+      "email": "sasas12@gmail.com",
+      "password": "$2a$10$oxjhscHcQa6EPcMsDx2RbuqdFCTL.fo3ZIKTwevMPWQdCfu7dl.Z6",
+      "login": "sasas12",
+      "tel": "1212",
+      "id": 5
+    }
   ]
-
-
 }

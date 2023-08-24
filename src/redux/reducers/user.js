@@ -3,11 +3,18 @@ import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 const userSlice = createSlice({
     name: 'user',
     initialState: {
-        email: ''
+        user: {
+
+        }
     },
     reducers: {
-
+        LoginUser: (state, {payload}) => {
+            state.user = payload
+        },
+        LogoutUser: (state) => {
+            state.user = {}
+        }
     }
 })
-export const {} = userSlice.actions
+export const {LoginUser} = userSlice.actions
 export default userSlice.reducer

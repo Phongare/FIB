@@ -7,6 +7,8 @@ import star from '../../../images/star.png'
 
 
 const Header = () => {
+    const user = JSON.parse(localStorage.getItem("user"))
+    console.log(user)
     const {pathname} = useLocation()
     let cart = pathname !== '/cart'
     return (
@@ -38,7 +40,7 @@ const Header = () => {
                                     <Link className='header__black'   to={'/'}>Контакты</Link>
                                 </div>
                                 <div className="header__links-right">
-                                    <Link className='header__register'  to={'/register'}>Войти</Link>
+                                    <Link className='header__register'  to={`${user ? "/profile" : "/register"}`}>{user ? "Профиль" : "Войти"}</Link>
                                     <Link className='header__btnLink'   to={'/cart'}>
                                         <button className='header__corz'>
                                             Корзина | 1

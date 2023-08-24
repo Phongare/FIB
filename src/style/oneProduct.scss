@@ -46,7 +46,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0;
   }
   &__dough {
     border-radius: 15px;
@@ -63,6 +63,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+  }
+  &__btn {
+    border-radius: 15px;
+    opacity: 0.9;
+    background: #F7D22D;
+    color: #231F20;
+    padding: 15px 30px;
+    border: #F7D22D;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
   }
   &__pepper {
     border-radius: 25px;
